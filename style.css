@@ -1,11 +1,84 @@
 body {
   background-color: #FFE;
+  border-color: black black;
+  border-style: solid;
+  border-width: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom:200px;
+  margin: 0;
 }
+img {
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+  border-color: black;
+  border-style: solid;
+  border-width: thick;
+  max-width: 100%;
+  }
 
 a:link {
   color: #900;
 }
 
-h2.nutritioninformation {
+h1 {
+  color: #8A716A;
+  text-align: center;
+  font-family: Modak, cursive;
+  font-size: 3em;
+  font-weight: normal;
+  border-radius: 100px 100px;
+  background-size: auto;
+  padding: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-size: cover;
+}
+
+h2 {
+  font-family: Assistant, sans-serif;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 50px;
+  padding-top: 15px;
+}
+
+h3 {
+  font-family: Assistant, sans-serif;
+  font-weight: 700;
+}
+
+h3.nutritioninformation {
   color: #887;
 }
+
+div {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+p, li, ol {
+  font-family: Assistant, sans-serif;
+  font-weight: 400;
+}
+
+li {
+  padding: 4px;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ol {
+  padding-left: 15px;
+}
+#relatedrecipes {
+    color: #887;
+  }
+  
+#title-div {
+  background: url('cookies.jpg');
+  padding: 20px;
